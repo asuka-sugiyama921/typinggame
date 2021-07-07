@@ -1,0 +1,38 @@
+
+body {
+  background:rgb(250, 246, 246);
+  font-family: fantasy, monospace;
+  text-align: center;
+}
+
+h1, .comment{
+  width:500px;
+  margin: 40px auto;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+h1{
+  font-size: 28px;
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #7db4e6;/*左線*/
+}
+
+.comment{
+  margin-bottom: 60px;
+}
+
+.under{
+  border-bottom: dotted 3px rgb(252, 68, 197);
+  line-height: 30px;
+}
+
+#target {
+  font-size: 44px;
+  letter-spacing: 3px; /*テキストの幅を少しあける*/
+}
+
+.info {
+  color: rgb(213, 179, 236);
+}
